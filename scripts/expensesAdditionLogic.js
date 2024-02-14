@@ -3,7 +3,6 @@ const dropdown = document.getElementById('dropdown');
 const questionMark = document.getElementById('questionMark');
 const infoMessage = document.getElementById('infoMessage');
 const moneyLabel = document.getElementById('money-label');
-const profilePictureButton = document.getElementById('profile-pic-button');
 
 const confirmScreen = document.getElementById('confirm-screen');
 const modal = document.getElementById('modal');
@@ -57,19 +56,7 @@ dropdownLinks.forEach(link => {
 });
 
 
-// hamburg button handle
 
-const menuButton = document
-        .getElementById("menuBtn")
-        .addEventListener("click", () => {
-          document.getElementById("popupmenu").classList.toggle("hidden");
-});
-
-
-//profile picture click
-profilePictureButton.addEventListener('click', () =>{
-    document.getElementById('profile-pic-dropdown').classList.toggle('hidden');
-});
 
 const toggleModel = ()=>{
     confirmScreen.classList.toggle('hidden');
