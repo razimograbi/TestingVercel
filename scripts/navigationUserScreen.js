@@ -127,6 +127,7 @@ document.addEventListener("DOMContentLoaded", function () {
           <a href="userHome.html" class="text-white hover:text-gray-300 block">Home</a>
           <a href="budgetTracking.html" class="text-white hover:text-gray-300 block" >Budget Tracker</a>
           <a href="goals.html" class="text-white hover:text-gray-300 block">Goals</a>
+          <a href="expenses.html" class="text-white hover:text-gray-300 block">Expenses</a>
           <a href="contactUs.html" class="text-white hover:text-gray-300 block" >Contact Us</a>
         </div>
       </div>
