@@ -12,20 +12,20 @@ document.addEventListener("DOMContentLoaded", function () {
                         <div class="sm:flex space-x-4 hidden">
                             <a href="mainuser.html" class="hover:text-gray-300">Home</a>
                             <a href="#features" class="hover:text-gray-300">Features</a>
-                            <a href="/pages/aboutUs.html" class="hover:text-gray-300">About Us</a>
-                            <a href="/pages/contactUs.html" class="hover:text-gray-300">Contact Us</a>
+                            <a href="./aboutUs.html" class="hover:text-gray-300">About Us</a>
+                            <a href="./contactUs.html" class="hover:text-gray-300">Contact Us</a>
                         </div>
                         <div class="items-center sm:flex hidden">
                             <a href="../login.html" class="mr-4 bg-white text-blue-500 py-2 px-4 rounded-full hover:bg-blue-100 block">Login</a>
-                            <a href="/pages/register.html" class="bg-blue-500 text-white py-2 px-4 rounded-full hover:bg-blue-700 block">Register</a>
+                            <a href="./register.html" class="bg-blue-500 text-white py-2 px-4 rounded-full hover:bg-blue-700 block">Register</a>
                         </div>
                         <div id="popupmenu" class="justify-start gap-4 hidden sm:hidden absolute bg-blue-400 width-[70px] top-[60px] rounded-lg left-0 right-0 p-4 pb-6">
                             <a href="mainuser.html" class="hover:text-gray-300 block">Home</a>
                             <a href="#features" class="hover:text-gray-300 block">Features</a>
-                            <a href="/pages/aboutUs.html" class="hover:text-gray-300 block">About Us</a>
-                            <a href="/pages/contactUs.html" class="hover:text-gray-300 block">Contact Us</a>
-                            <a href="/pages/login.html" class="mr-4 bg-white text-blue-500 py-2 px-4 rounded-full hover:bg-blue-100 block my-2">Login</a>
-                            <a href="/pages/register.html" class="bg-blue-500 text-white py-2 px-4 rounded-full hover:bg-blue-700 block">Register</a>
+                            <a href="./aboutUs.html" class="hover:text-gray-300 block">About Us</a>
+                            <a href="./contactUs.html" class="hover:text-gray-300 block">Contact Us</a>
+                            <a href="./login.html" class="mr-4 bg-white text-blue-500 py-2 px-4 rounded-full hover:bg-blue-100 block my-2">Login</a>
+                            <a href="./register.html" class="bg-blue-500 text-white py-2 px-4 rounded-full hover:bg-blue-700 block">Register</a>
                         </div>
                     </div>
                 </div>
